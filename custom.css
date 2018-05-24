@@ -1,0 +1,200 @@
+.pre-header{
+	background: #222;
+	color: #fff;
+	text-align: center;
+	height: 130px;
+	padding-top: 40px;
+}
+.carousel-item img{
+	width: 100%;
+	height: 400px;
+}
+.carousel{
+	width: 100%;
+}
+.carousel-indicators{
+	list-style: none;
+}
+footer{
+	color: #098ba7;
+	text-align: center;
+	background: #fff;
+	height: 50px;
+	vertical-align: middle;
+	font-weight: 500;
+	padding-top: 20px;
+}
+
+body{
+	background: #fff;
+	color: #000;
+	font-size: 15px;
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+	width: 100%;
+	margin: 0;
+	padding: 0;	
+	max-height: 100%;
+}
+html, body{
+	overflow-x: hidden;
+	max-width: 100%;
+}
+.navbar{
+	padding-left: 150px;
+	background-color: #da1c5c;
+	color: #fff;
+}
+.navbar li{
+	padding-right: 20px;
+}
+nav p{
+	padding-right: 20px;
+}
+.navbar li a:hover{
+	background: rgba(255, 255, 255, .12);
+	color: #fff;
+	 box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.info{
+	background: #222;
+	font-size: 13px;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+.info img{
+	width: 340px;
+	height: 190px;
+	margin-left: 340px;
+	
+}
+
+.branches{
+	width: 80px;
+	height: 80px;
+	margin-top: 15px;
+	border-radius: 250px;
+}
+form{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.openInvestment{
+    background-color:  #da1c5c;
+	color: #fff;
+}
+.fixedInvestment{
+	background-color: #555;
+	color: #fff;
+}
+.copInvestment{
+    background-color: #eaf4f6;
+}
+
+.fixedInvestment, .copInvestment, .openInvestment {
+	padding: 20px 150px 20px 150px;
+}
+.partCountries ul{
+	float: right;
+	list-style: none;
+	padding-right: 170px;
+	padding-top:20px;
+}
+.depo-info{
+	padding: 15px 300px 15px 300px;
+	background-color: #333333;
+	color: #fff;
+}
+.localPay{
+    background-color: #da1c5c;
+	color: #fff;
+	padding: 10px 320px 10px 320px;
+}
+.globalPay{
+	color: #000;
+	padding: 15px 320px 15px 320px;
+}
+.localPay img{
+	width: 220px;
+	height: 200px;
+}
+.globalPay img{
+	width: 220px;
+	height: 200px;
+}
+.faq{
+	background-color: #555555;
+	padding: 15px 200px 15px 200px;
+	color: #fff;
+	font-size: 15px;
+}
+.faqTitle{
+	background-color: #eaf4f6;
+	padding-left: 195px;
+	height: 90px;
+	padding-top: 10px;
+}
+.contacts{
+	padding: 20px 400px 20px 200px;
+	background-color: #da1c5c;
+	color: #fff;
+}
+.contacts img{
+	width: 300px;
+	height: 230px;
+}
+.contacts form input{ 
+	background: #be1f54;
+	color: #FFF;
+	border: 1px solid;
+	width: 400px;
+}
+.contacts button{
+	width: 400px;
+	height: 33px;
+	background-color: #96ba13;
+	color: #FFF;
+	border: 1px;
+}
+.contacts ul{
+	list-style: none;
+}
+.loginTitle{
+	background-color: #da1c5c;
+	color: #fff;
+	padding: 20px 350px 20px 200px;
+	height: 90px;
+}
+.loginSec{
+	background-color: #ede2e2;
+	padding-left: 300px;
+	
+}
+/*media query*/
+@media (max-width: 768px) {
+  .info {
+    padding: none;
+  }
+  .info img{
+	  margin-left:2px;
+  }
+  
+  .fixedInvestment, .copInvestment, .openInvestment {
+	padding:0;
+	}
+	.partCountries ul{
+		padding-top: 20px;
+		padding-right: 100px;
+	}
+	
+	.depo-info, .localPay, .globalPay, .faq, .contacts, .loginSec, .loginTitle{
+		padding: 0;
+	}
+	.faqTitle{
+		height: 90px;
+		padding-top: 20px;	
+	}
+	
+}
